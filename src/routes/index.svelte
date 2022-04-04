@@ -1,6 +1,6 @@
 <script lang='ts'>
-	import tenFounders from '/static/assets/images/10_founders.png';
-	import BeardmansGrid from '../components/Beardman/BeardmansGrid.svelte';
+	import tenFounders from '/static/assets/images/banner-720x288.png';
+	import NFTGrid from 'src/components/NFT/NFTGrid.svelte';
 	import Text from '../components/UI/Text.svelte';
 	import Button from '../components/UI/Button.svelte';
 
@@ -23,7 +23,7 @@
 		</div>
 	</div>
 
-	<BeardmansGrid />
+	<NFTGrid />
 
 
 	<div class='text'>

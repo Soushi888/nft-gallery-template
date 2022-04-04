@@ -1,5 +1,5 @@
 import { readable } from 'svelte/store';
-export const beardmansStore = readable([
+export const nftStore = readable([
     {
         'name': 'Beardman 1',
         'imageUrl': '/assets/images/pixil-frame-0.png',

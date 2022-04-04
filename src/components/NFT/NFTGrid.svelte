@@ -1,13 +1,14 @@
 <script>
-  import { beardmansStore } from "../../stores/beardmans.store.js";
-  import BeardmanCard from "./BeardmanCard.svelte";
+  import image from "$assets/img-250x250.png";
+  import {nftStore} from "../../stores/nft.store.ts";
+  import NTFCard from "./NFTCard.svelte";
 </script>
 
 <div>
-  {#each $beardmansStore as beardman, i}
-    <BeardmanCard id={i} name={beardman.name} url={beardman.imageUrl} link={beardman.link} price={beardman.price}
-                  isSoldOut="{beardman.isSoldOut}" />
-  {/each}
+    {#each $nftStore as nft, i}
+        <NTFCard id={i} name={nft.name} url={image} link={nft.link} price={nft.price}
+                 isSoldOut="{nft.isSoldOut}"/>
+    {/each}
 </div>
 
 <style lang="scss">

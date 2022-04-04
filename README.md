@@ -21,9 +21,9 @@ Created with [Svelte Kit](https://kit.svelte.dev).
 
 */src/components/* :
 ```bash
-├── Beardman
-│    ├── BeardmanCard.svelte
-│    └── BeardmansGrid.svelte
+├── NFT
+│    ├── NFTCard.svelte
+│    └── NFTGrid.svelte
 ├── Footer.svelte
 ├── Logo.svelte
 ├── Navbar.svelte
@@ -40,7 +40,7 @@ Created with [Svelte Kit](https://kit.svelte.dev).
 
 *src/stores/*
 
-- beardmans.store.ts : Interface et données de la première génération des beardmans.
+- nft.store.ts : Interface et données de la première génération des beardmans.
 
 ## Developing
 

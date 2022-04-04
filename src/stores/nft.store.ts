@@ -1,6 +1,6 @@
 import { Readable, readable } from "svelte/store";
 
-export interface Beardman {
+export interface NFT {
   name: string,
   imageUrl: string,
   price: string,
@@ -8,7 +8,7 @@ export interface Beardman {
   isSoldOut: boolean
 }
 
-export const beardmansStore: Readable<Beardman[]> = readable([
+export const nftStore: Readable<NFT[]> = readable([
   {
     "name": "Beardman 1",
     "imageUrl": "/assets/images/pixil-frame-0.png",
