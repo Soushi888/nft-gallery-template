@@ -4,6 +4,10 @@ Generic template for exposing NFT collections in single or multi pages static we
 
 Created with [Svelte Kit](https://kit.svelte.dev).
 
+## Demo
+
+- [Beardman Club](https://beardman-club.netlify.app)
+
 ## Routes
 
 */src/routes/* :
@@ -14,8 +18,8 @@ Created with [Svelte Kit](https://kit.svelte.dev).
 ```
 
 - Index : Page principale
-- __layout : Gabarit principal (header + footer)
-- __error : Page d'erreur
+- __layout :Principal Layout (header + footer)
+- __error : Error Page
 
 ## Components tree
 
@@ -33,14 +37,14 @@ Created with [Svelte Kit](https://kit.svelte.dev).
     └── Text.svelte
 ```
 
-- UI/ : Répertoire des composants atomiques
-- Beardman/ : Composantes de la Grille et des Cartes Beardmans
+- UI/ : Atomics components repertory
+- NFT/ : NFT Grid and Card components repertory
 
 ## Stores
 
 *src/stores/*
 
-- nft.store.ts : Interface et données de la première génération des beardmans.
+- nft.store.ts : Data interface of an example collection
 
 ## Developing
 

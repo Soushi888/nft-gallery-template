@@ -1,5 +1,5 @@
 {
-  "name": "beardman-club",
+  "name": "ntf-gallery-template",
   "version": "1.0",
   "scripts": {
     "dev": "svelte-kit dev",
