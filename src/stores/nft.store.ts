@@ -19,7 +19,7 @@ export const nftStore: Readable<NFT[]> = readable([
   {
     "name": "NFT 2",
     "imageUrl": "/assets/images/img-250x250.png",
-    "price": "1",
+    "price": "1 SOL",
     "link": "https://solsea.io/nft/BF7KSdyJZL6x2AfAvMXxLog1ozAzNBEG6KzZE5VSLx57",
     "isSoldOut": false
   },
