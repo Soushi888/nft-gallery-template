@@ -18,7 +18,7 @@ Created with [Svelte Kit](https://kit.svelte.dev).
 ```
 
 - Index : Page principale
-- __layout :Principal Layout (header + footer)
+- __layout : Principal Layout (header + footer)
 - __error : Error Page
 
 ## Components tree
