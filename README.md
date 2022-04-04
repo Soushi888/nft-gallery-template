@@ -37,14 +37,14 @@ Created with [Svelte Kit](https://kit.svelte.dev).
     └── Text.svelte
 ```
 
-- UI/ : Atomics components repertory
-- NFT/ : NFT Grid and Card components repertory
+- `UI/` : Atomics components repertory
+- `NFT/` : NFT Grid and Card components repertory
 
 ## Stores
 
 *src/stores/*
 
-- nft.store.ts : Data interface of an example collection
+- `nft.store.ts` : Data interface of an example collection
 
 ## Developing
 
@@ -61,9 +61,9 @@ npm run dev -- --open
 
 ## Building
 
-Netlify adapter. 
+Static adapter.
 
-Config file : `netlify.toml`
+build repertory : `build/`
 
 ```bash
 npm run build
