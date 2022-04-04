@@ -6,7 +6,7 @@ Created with [Svelte Kit](https://kit.svelte.dev).
 
 ## Demo
 
-- [Template](https://nft-gallery-template.netlify.app)
+- [Template (this repo)](https://nft-gallery-template.netlify.app)
 - [Beardman Club](https://beardman-club.netlify.app)
 
 ## Routes

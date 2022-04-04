@@ -4,7 +4,7 @@
   import Text from '../components/UI/Text.svelte';
   import Button from '../components/UI/Button.svelte';
 
-  const collectionLink = 'https://solsea.io/collection/61349862c380013a65a17a7b';
+  const collectionLink = 'https://solsea.io/collections/';
 </script>
 
 <svelte:head>
