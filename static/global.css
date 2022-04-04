@@ -1,0 +1,26 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Caveat+Brush&family=Ceviche+One&family=Chewy&family=Goudy+Bookletter+1911&family=Kreon&family=Limelight&family=Mirza&family=Patrick+Hand+SC&family=Wendy+One&display=swap');
+
+:root {
+    --color-primary: #2d91ca;
+    --color-primary__dark: #1d729b;
+
+    --background-color: #131313;
+    --background-color__light: #1f1f1f;
+
+    --header-font: 'Patrick Hand SC', cursive;
+    --main-font: 'Goudy Bookletter 1911', serif;
+
+
+    --container-marge: 80px;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--color-primary);
+    font-family: var(--main-font);
+}
+
+h1 {
+    font-family: var(--header-font);
+}
