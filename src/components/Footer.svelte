@@ -8,7 +8,7 @@
 </script>
 
 <footer>
-  <p class="copyright">©{currentYear} Beardmans Club | All rights reserved.</p>
+  <p class="copyright">©{currentYear} Copyrights | All rights reserved.</p>
 
   <Social />
 </footer>

@@ -11,26 +11,26 @@
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
   },
   "devDependencies": {
-    "@babel/core": "^7.15.5",
-    "@sveltejs/adapter-netlify": "^1.0.0-next.31",
+    "@babel/core": "^7.17.8",
+    "@sveltejs/adapter-netlify": "^1.0.0-next.0",
     "@sveltejs/kit": "next",
-    "@typescript-eslint/eslint-plugin": "^4.19.0",
-    "@typescript-eslint/parser": "^4.19.0",
-    "babel-loader": "^8.2.2",
-    "eslint": "^7.22.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-svelte3": "^3.2.0",
-    "prettier": "~2.2.1",
-    "prettier-plugin-svelte": "^2.2.0",
-    "svelte": "^3.42.6",
-    "svelte-check": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "babel-loader": "^8.2.4",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-svelte3": "^3.4.1",
+    "prettier": "~2.6.2",
+    "prettier-plugin-svelte": "^2.6.0",
+    "svelte": "^3.46.6",
+    "svelte-check": "^2.4.6",
     "svelte-loader": "^3.1.2",
-    "svelte-preprocess": "^4.9.0",
-    "tslib": "^2.0.0",
-    "typescript": "^4.4.0"
+    "svelte-preprocess": "^4.10.4",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.3"
   },
   "type": "module",
   "dependencies": {
-    "sass": "^1.41.0"
+    "sass": "^1.49.11"
   }
 }

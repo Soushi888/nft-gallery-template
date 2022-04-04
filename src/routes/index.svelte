@@ -1,39 +1,46 @@
 <script lang='ts'>
-	import tenFounders from '/static/assets/images/banner-720x288.png';
-	import NFTGrid from 'src/components/NFT/NFTGrid.svelte';
-	import Text from '../components/UI/Text.svelte';
-	import Button from '../components/UI/Button.svelte';
+  import banner from '$assets/images/banner-720x288.png';
+  import NFTGrid from '../components/NFT/NFTGrid.svelte';
+  import Text from '../components/UI/Text.svelte';
+  import Button from '../components/UI/Button.svelte';
 
-	const collectionLink = 'https://solsea.io/collection/61349862c380013a65a17a7b';
+  const collectionLink = 'https://solsea.io/collection/61349862c380013a65a17a7b';
 </script>
 
+<svelte:head>
+    <title>NFT Gallery</title>
+</svelte:head>
+
 <main>
-	<div class='text'>
-		<h1>Welcome to the Beardman Club !</h1>
-		<div class='ten-founders'>
-			<a href='{collectionLink}' target='_blank'><img src='{tenFounders}' alt='Ten founders.'></a>
-		</div>
-		<Text textAlign='center'>
-			The Beardman Club is a club about the Mystic Beard. This is the beard that unites us against our enemies of
-			all time. A group of ten Beardman fighting for their life deep in the forest found a temple inside the dark
-			mountain. They found a old script talking about the mystical beard fighting the enemies.
-		</Text>
-		<div class='button'>
-			<Button href={collectionLink} targetBlank>Collection</Button>
-		</div>
-	</div>
+    <div class='text'>
+        <h1>Welcome to this NFT Gallery !</h1>
+        <div class='ten-founders'>
+            <a href='{collectionLink}' target='_blank'><img src='{banner}' alt='Ten founders.'></a>
+        </div>
+        <Text textAlign='center'>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque consequuntur corporis deleniti
+            doloribus ducimus, earum facilis illo molestiae molestias, nihil nulla, officiis porro quam reiciendis sed
+            sequi suscipit vitae?
+        </Text>
+        <div class='button'>
+            <Button href={collectionLink} targetBlank>Collection</Button>
+        </div>
+    </div>
 
-	<NFTGrid />
+    <NFTGrid/>
 
-
-	<div class='text'>
-		<Text textAlign='center'>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-			magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-			Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</Text>
-	</div>
+    <div class='text'>
+        <Text textAlign='center'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+            laborum.
+        </Text>
+    </div>
 </main>
 
 <style lang='scss'>

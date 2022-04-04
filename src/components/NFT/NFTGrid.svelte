@@ -1,12 +1,11 @@
 <script>
-  import image from "$assets/img-250x250.png";
   import {nftStore} from "../../stores/nft.store.ts";
   import NTFCard from "./NFTCard.svelte";
 </script>
 
 <div>
     {#each $nftStore as nft, i}
-        <NTFCard id={i} name={nft.name} url={image} link={nft.link} price={nft.price}
+        <NTFCard id={i} name={nft.name} url={nft.imageUrl} link={nft.link} price={nft.price}
                  isSoldOut="{nft.isSoldOut}"/>
     {/each}
 </div>

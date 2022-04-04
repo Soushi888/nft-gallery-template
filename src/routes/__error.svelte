@@ -1,11 +1,17 @@
+<script context="module" lang="ts">
+  export function load({ error, status }) {
+    console.error(status, error);
+  }
+</script>
+
 <main>
-	<div class='error-card'>
-		<h1>Woops,</h1>
-		<h2>Something wrong happened...</h2>
-	</div>
+  <div class="error-card">
+    <h1>Woops,</h1>
+    <h2>Something wrong happened...</h2>
+  </div>
 </main>
 
-<style lang='scss'>
+<style lang="scss">
   main {
     min-height: 70vh;
     display: flex;
@@ -18,27 +24,27 @@
       box-shadow: 9px 5px 15px 7px #343434;
       border-radius: 20px;
       padding: 100px;
-			text-align: center;
-			transition: bottom 2s ease-in-out;
+      text-align: center;
+      transition: bottom 2s ease-in-out;
 
-			h1 {
+      h1 {
         font-size: 4rem;
         color: var(--background-color__light);
       }
 
       h2 {
-				font-size: 3rem;
+        font-size: 3rem;
         color: var(--background-color__light);
       }
 
-			&:hover {
-				position: relative;
-				bottom: 10px;
-			}
+      &:hover {
+        position: relative;
+        bottom: 10px;
+      }
 
-			@media (max-width: 760px) {
-			margin: 0 10%;
-			}
+      @media (max-width: 760px) {
+        margin: 0 10%;
+      }
     }
   }
 </style>

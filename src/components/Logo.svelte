@@ -1,4 +1,4 @@
-<a href='/'><h1>BEARDMAN CLUB</h1></a>
+<a href='/'><h1>LOGO</h1></a>
 
 <style lang='scss'>
   a {

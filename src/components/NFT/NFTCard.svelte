@@ -8,7 +8,7 @@
 		isSoldOut: boolean;
 </script>
 
-<div class='beardman-card' class:sold-out={isSoldOut}>
+<div class='nft-card' class:sold-out={isSoldOut}>
 	<a href='{link}' target='_blank'><img src='{url}' alt='{name}'></a>
 
 	<h3>{name}</h3>
@@ -25,7 +25,7 @@
 </div>
 
 <style lang='scss'>
-  .beardman-card {
+  .nft-card {
     background: #e3e3e3;
     box-shadow: 3px 4px 12px 3px #565656;
     border-radius: 20px;
