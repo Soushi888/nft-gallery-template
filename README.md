@@ -11,20 +11,27 @@ Created with [Svelte Kit](https://kit.svelte.dev).
 
 ## Routes
 
+You can add more pages by simply create new svelte files in the `Routes/` folder.
+
 */src/routes/* :
+
 ```bash
 ├── __error.svelte
 ├── index.svelte
 └── __layout.svelte
 ```
 
-- Index : Page principale
-- __layout : Principal Layout (header + footer)
+- Index : Main Page
+- [...] : Other collection pages
+- __layout : Main Layout (header + footer)
 - __error : Error Page
 
 ## Components tree
 
+You can assemble those components in `Routes/` files and create additional ones if needed.
+
 */src/components/* :
+
 ```bash
 ├── NFT
 │    ├── NFTCard.svelte
@@ -42,6 +49,8 @@ Created with [Svelte Kit](https://kit.svelte.dev).
 - `NFT/` : NFT Grid and Card components repertory
 
 ## Stores
+
+You can create as much store you need for managing the data of your collections.
 
 *src/stores/*
 
