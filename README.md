@@ -21,10 +21,10 @@ You can add more pages by simply create new svelte files in the `Routes/` folder
 └── __layout.svelte
 ```
 
-- `Index` : Main Page
-- `[...]` : Other collection pages
-- `__layout` : Main Layout (header + footer)
-- `__error` : Error Page
+- `index.svelte` : Main Page
+- `[...].svelte` : Other collection pages
+- `__layout.svelte` : Main Layout (header + footer)
+- `__error.svelte` : Error Page
 
 ## Components tree
 
