@@ -1,6 +1,12 @@
 <script>
-  import {nftStore} from "../../stores/nft.store.ts";
+  import {nftStore} from "$stores/nft.store";
   import NTFCard from "./NFTCard.svelte";
+  import metaplexStore from "$stores/metaplex.store.js";
+  import {onMount} from "svelte";
+
+  onMount(async () => {
+    // await metaplex.getMetadata();
+  })
 </script>
 
 <div>
