@@ -2,6 +2,7 @@ import preprocess from "svelte-preprocess";
 import adapter from "@sveltejs/adapter-static";
 import * as path from "path";
 
+/** @type {import('@sveltejs/kit').Config} */
 const config = {
   // Consult https://github.com/sveltejs/svelte-preprocess
   // for more information about preprocessors
@@ -23,12 +24,13 @@ const config = {
     vite: {
       resolve: {
         alias: {
-          $assets: path.resolve("./static/assets")
+          $assets: path.resolve("./static/assets"),
+          $stores: path.resolve("./src/stores")
         }
       },
       server: {
         fs: {
-          allow: ['static']
+          allow: ['..']
         }
       }
     }
@@ -36,4 +38,3 @@ const config = {
 };
 
 export default config;
-

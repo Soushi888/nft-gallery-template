@@ -1,4 +1,4 @@
-import { Readable, readable } from "svelte/store";
+import { type Readable, readable } from "svelte/store";
 
 export interface NFT {
   name: string,
